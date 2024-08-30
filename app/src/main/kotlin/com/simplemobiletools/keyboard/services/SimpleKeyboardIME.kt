@@ -43,7 +43,7 @@ import java.io.ByteArrayOutputStream
 import java.util.Locale
 
 // based on https://www.androidauthority.com/lets-build-custom-keyboard-android-832362/
-class SimpleKeyboardIME : InputMethodService(), OnKeyboardActionListener, SharedPreferences.OnSharedPreferenceChangeListener {
+open class SimpleKeyboardIME : InputMethodService(), OnKeyboardActionListener, SharedPreferences.OnSharedPreferenceChangeListener {
     private var SHIFT_PERM_TOGGLE_SPEED = 500   // how quickly do we have to doubletap shift to enable permanent caps lock
     private val KEYBOARD_LETTERS = 0
     private val KEYBOARD_SYMBOLS = 1

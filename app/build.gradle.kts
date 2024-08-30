@@ -30,6 +30,10 @@ android {
         versionCode = project.libs.versions.app.version.versionCode.get().toInt()
         multiDexEnabled = true
         vectorDrawables.useSupportLibrary = true
+
+        applicationId = "ai.apptest.android.keyboard"
+        versionName = "5.4.9+apptestai.0"
+
         ksp {
             arg("room.schemaLocation", "$projectDir/schemas")
         }

@@ -1,3 +1,13 @@
+# Apptest.ai Keyboard
+
+This project is based on Simple-Keyboard, originally created by Tibor Kaputa.
+The original project can be found at https://github.com/SimpleMobileTools/Simple-Keyboard .
+
+This project has been modified by Apptest.ai .
+The modifications are licensed under the GPL 3.0 License.
+
+Additionally an ADBKeyboard project which is licensed under GPL 2.0 was also referenced. (https://github.com/senzhk/ADBKeyBoard)
+
 # Simple Keyboard
 <img alt="Logo" src="graphics/icon.png" width="120" />
 
